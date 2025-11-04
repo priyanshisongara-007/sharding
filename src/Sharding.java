@@ -11,7 +11,7 @@ public class Sharding {
     private static final String URL_SHARD1 = "jdbc:mysql://10.65.134.76:3310/sys";
     private static final String URL_SHARD2 = "jdbc:mysql://10.65.134.76:3310/myapp";
     private static final String USER = "root";
-    private static final String PASSWORD = "root";
+    private static final String PASSWORD = "*****";
 
     public static void main(String[] args) throws SQLException {
         Sharding example = new Sharding();
