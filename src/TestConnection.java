@@ -8,7 +8,7 @@ public class TestConnection {
 
     private static final String URL = "jdbc:mysql://10.65.134.76:3310/sys"; // Change database as needed
     private static final String USER = "root";
-    private static final String PASSWORD = "root";
+    private static final String PASSWORD = "****";
 
     public static void main(String[] args) {
         Connection connection = null;
